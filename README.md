@@ -13,23 +13,35 @@ Głównym obszarem moich zainteresowań i specjalizacji jest rygorystyczne proje
 
 Poniżej znajduje się krótki zwiastun moich możliwości projektowych. **Z uwagi na ochronę własności intelektualnej (IP), pełna dokumentacja, schematy blokowe oraz pomiary laboratoryjne znajdują się wyłącznie w załączonym pliku PDF.**
 
-**1. Uniwersalny Modułowy System Pomiarowy (High-Speed & SoC)**
-Integracja układu Rockchip RK3588, FPGA Zynq-7100 oraz Switcha TSN (LAN9696) na 8-warstwowym obwodzie drukowanym.
+**1. Uniwersalny Modułowy System Pomiarowy (Moduł SoM Rockchip RK3588)**
+Sercem układu obliczeniowego jest autorski moduł bazujący na procesorze Rockchip RK3588, realizowany na 8-warstwowym obwodzie drukowanym z rygorystyczną kontrolą impedancji.
 
-> *Integracja ECAD-MCAD: Model 3D wierzchniej warstwy modułu obliczeniowego z widocznym układem BGA.*
-> ![Model 3D płyty](./3D_TOP.PNG)
+> *High-Speed Routing: Precyzyjne wyprowadzenie magistrali szybkiej pamięci LPDDR4 z układu BGA na warstwie wierzchniej (Top).*
+> ![LPDDR4 Top](./images/LPDDR4_TOP.PNG)
 
-> *Signal Integrity: Meandrowanie i rygorystyczne wyrównywanie długości ścieżek (Length-Tuning) dla różnicowej magistrali PCIe.*
-> ![Routing PCIe](./MEANDRY_PCIE.PNG)
+> *High-Speed Routing: Kontynuacja prowadzenia magistrali LPDDR4 na wewnętrznej warstwie sygnałowej (L6).*
+> ![LPDDR4 L6](./images/LPDDR4_L6.PNG)
 
-**2. Zaawansowany System Audio-Wizualny (Mixed-Signal & HMI)**
-Projekt łączący precyzyjne, niskoszumne tory audio z cyfrową jednostką sterującą STM32H7, układem zasilania Soft-Start na 4 transformatorach oraz zaawansowanym interfejsem graficznym.
+> *Signal Integrity: Meandrowanie i wyrównywanie długości ścieżek (Length-Tuning) dla różnicowej magistrali PCIe.*
+> ![Routing PCIe](./images/MEANDRY_PCIE.PNG)
 
-> *Hardware Bring-up: Zmontowany i przetestowany fizyczny prototyp płyty głównej (Mixed-Signal).*
-> ![Płyta główna Audio](./1_TOP.jpg)
+**2. Uniwersalny Modułowy System Pomiarowy (Karta Rozszerzeń Ethernet TSN)**
+Karta zapewniająca deterministyczną komunikację sieciową (IEEE 1588v2), zrealizowana na 6-warstwowym stosie z zaawansowanym switchem LAN9696.
 
-> *Interfejs HMI: Działający panel operatorski z 7-calowym ekranem TFT (TouchGFX, 24-bit LTDC) oraz wdrożonymi bezstykowymi enkoderami magnetycznymi.*
-> ![Panel kontrolny HMI](./8_APARAT_TOP.jpg)
+> *High-Speed Routing: Gęsty routing magistrali szybkiej pamięci DDR widoczny w przekroju wszystkich warstw sygnałowych obwodu drukowanego.*
+> ![Routing DDR](./images/DDR_1.PNG)
+
+**3. Zaawansowany System Audio-Wizualny (Mixed-Signal & HMI)**
+Projekt łączący precyzyjne, niskoszumne tory audio z cyfrową jednostką sterującą STM32H7, wielotransformatorowym zasilaniem oraz zaawansowanym interfejsem graficznym.
+
+> *Integracja MCAD-ECAD: Złożenie mechaniczne 3D (Front) całego systemu audio w dedykowanej aluminiowej obudowie (widoczne radiatory i zasilanie).*
+> ![Model 3D Systemu](./images/MECHANICAL_AMP_1.PNG)
+
+> *Hardware Bring-up: Wyprodukowana, zmontowana i w pełni uruchomiona główna płyta przetwarzania sygnałów analogowo-cyfrowych (Mixed-Signal).*
+> ![Płyta główna Audio](./images/1_TOP.jpg)
+
+> *Interfejs HMI: Działający, fizyczny panel operatorski z 7-calowym ekranem TFT (TouchGFX) oraz wdrożonymi bezstykowymi enkoderami magnetycznymi.*
+> ![Panel kontrolny HMI](./images/8_APARAT_TOP.jpg)
 
 ---
 
@@ -41,8 +53,8 @@ Projekt łączący precyzyjne, niskoszumne tory audio z cyfrową jednostką ster
 - **Integracja MCAD-ECAD:** Mechaniczne modelowanie 3D (Autodesk Inventor, Fusion), projektowanie obudów i systemów chłodzenia, druk 3D.
 
 ### 📂 Pliki w Repozytorium:
-- 📥 **[PORTFOLIO_KACZMAREK.pdf](./PORTFOLIO_KACZMAREK.pdf)** – Szczegółowy dokument z rzutami 3D, układem warstw PCB oraz zdjęciami zmontowanych układów.
-- 📄 **[CV_Mateusz_Kaczmarek.pdf](./CV_Mateusz_Kaczmarek.pdf)** – Moje aktualne Curriculum Vitae.
+- 📥 **[PORTFOLIO_KACZMAREK_MATEUSZ.pdf](./PORTFOLIO_KACZMAREK_MATEUSZ.pdf)** – Szczegółowy dokument z rzutami 3D, układem warstw PCB oraz zdjęciami zmontowanych układów.
+- 📄 **[CV_KACZMAREK_MATEUSZ.pdf](./CV_KACZMAREK_MATEUSZ.pdf)** – Moje aktualne Curriculum Vitae.
 
 Zapraszam do przeglądania i kontaktu!
 - **LinkedIn:** [linkedin.com/in/mateusz-kaczmarek](https://www.linkedin.com/in/mateusz-kaczmarek-510382447)
@@ -64,23 +76,35 @@ My main areas of interest and expertise are rigorous Mixed-Signal circuit design
 
 Below is a brief teaser of my design capabilities. **Due to Intellectual Property (IP) protection, full documentation, block diagrams, and laboratory measurements are available exclusively in the attached PDF file.**
 
-**1. Universal Modular Measurement System (High-Speed & SoC)**
-Integration of Rockchip RK3588, FPGA Zynq-7100, and a TSN Switch (LAN9696) on an 8-layer PCB.
+**1. Universal Modular Measurement System (SoM Rockchip RK3588)**
+The computing core is a custom System-on-Module based on the Rockchip RK3588 application processor, implemented on an 8-layer impedance-controlled PCB.
 
-> *ECAD-MCAD Integration: 3D model of the computing module's top layer featuring the BGA package.*
-> ![SoC 3D Model](./3D_TOP.PNG)
+> *High-Speed Routing: Precise fan-out of the LPDDR4 high-speed memory bus from the BGA package on the Top layer.*
+> ![LPDDR4 Top](./images/LPDDR4_TOP.PNG)
+
+> *High-Speed Routing: Continuation of the LPDDR4 memory bus routing on the internal signal layer (L6).*
+> ![LPDDR4 L6](./images/LPDDR4_L6.PNG)
 
 > *Signal Integrity: Rigorous length tuning and meandering for a differential PCIe bus.*
-> ![PCIe Routing](./MEANDRY_PCIE.PNG)
+> ![PCIe Routing](./images/MEANDRY_PCIE.PNG)
 
-**2. Advanced Audio-Visual System (Mixed-Signal & HMI)**
-A project combining precise, low-noise audio tracks with an STM32H7 digital control unit, a Soft-Start power supply system based on 4 transformers, and an advanced graphical interface.
+**2. Universal Modular Measurement System (Ethernet TSN Expansion Card)**
+An expansion card designed for deterministic network communication (IEEE 1588v2), realized on a 6-layer stackup featuring the advanced LAN9696 switch.
 
-> *Hardware Bring-up: Assembled and tested physical prototype of the main Mixed-Signal board.*
-> ![Audio Mainboard](./1_TOP.jpg)
+> *High-Speed Routing: Dense routing of the high-speed DDR memory bus, visible across all signal layers of the PCB.*
+> ![Routing DDR](./images/DDR_1.PNG)
 
-> *HMI Interface: Functional operator panel with a 7-inch TFT screen (TouchGFX, 24-bit LTDC) and custom contactless magnetic encoders.*
-> ![HMI Control Panel](./8_APARAT_TOP.jpg)
+**3. Advanced Audio-Visual System (Mixed-Signal & HMI)**
+A project combining precise, low-noise audio tracks with an STM32H7 digital control unit, a multi-transformer power supply, and an advanced graphical interface.
+
+> *MCAD-ECAD Integration: 3D mechanical assembly (Front) of the entire audio system within a custom aluminum enclosure.*
+> ![3D System Model](./images/MECHANICAL_AMP_1.PNG)
+
+> *Hardware Bring-up: Manufactured, assembled, and fully operational main analog-digital processing board (Mixed-Signal).*
+> ![Audio Mainboard](./images/1_TOP.jpg)
+
+> *HMI Interface: Functional, physical operator panel featuring a 7-inch TFT screen (TouchGFX) and implemented contactless magnetic encoders.*
+> ![HMI Control Panel](./images/8_APARAT_TOP.jpg)
 
 ---
 
@@ -92,8 +116,8 @@ A project combining precise, low-noise audio tracks with an STM32H7 digital cont
 - **MCAD-ECAD Integration:** 3D mechanical modeling (Autodesk Inventor, Fusion), enclosure and cooling system design, 3D printing.
 
 ### 📂 Files in this Repository:
-- 📥 **[PORTFOLIO_KACZMAREK.pdf](./PORTFOLIO_KACZMAREK.pdf)** - Detailed document with 3D models, PCB layer stackups, and photos of assembled circuits.
-- 📄 **[CV_Mateusz_Kaczmarek.pdf](./CV_Mateusz_Kaczmarek.pdf)** - My current Curriculum Vitae.
+- 📥 **[PORTFOLIO_KACZMAREK_MATEUSZ.pdf](./PORTFOLIO_KACZMAREK_MATEUSZ.pdf)** - Detailed document with 3D models, PCB layer stackups, and photos of assembled circuits.
+- 📄 **[CV_KACZMAREK_MATEUSZ.pdf](./CV_KACZMAREK_MATEUSZ.pdf)** - My current Curriculum Vitae.
 
 Feel free to explore and get in touch!
 - **LinkedIn:** [linkedin.com/in/mateusz-kaczmarek](https://www.linkedin.com/in/mateusz-kaczmarek-510382447)

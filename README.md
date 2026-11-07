@@ -1,7 +1,7 @@
 # Portfolio Projektowe / Engineering Portfolio
 *Mateusz Kaczmarek - Hardware / PCB Engineer*
 
-[🇬🇧 English version below](#english-version)
+[🇬🇧 Switch to English Version](#english-version)
 
 Witaj w moim repozytorium! Znajdziesz tutaj kompleksowe portfolio moich projektów inżynierskich i akademickich, obejmujących pełen cykl życia produktu – od koncepcji i schematów, przez symulacje, układanie obwodów drukowanych (PCB), integrację mechaniczną 3D, aż po finalny montaż i uruchomienie sprzętu (hardware bring-up).
 
@@ -52,16 +52,15 @@ Projekt łączący precyzyjne, niskoszumne tory audio z cyfrową jednostką ster
 - **Przetwarzanie Sygnałów (DSP):** Implementacja algorytmów (FFT, filtry cyfrowe), sprzętowa akwizycja danych.
 - **Integracja MCAD-ECAD:** Mechaniczne modelowanie 3D (Autodesk Inventor, Fusion), projektowanie obudów i systemów chłodzenia, druk 3D.
 
-### 📂 Pliki w Repozytorium:
-- 📥 **[PORTFOLIO_KACZMAREK_MATEUSZ.pdf](./PORTFOLIO_KACZMAREK_MATEUSZ.pdf)** – Szczegółowy dokument z rzutami 3D, układem warstw PCB oraz zdjęciami zmontowanych układów.
-- 📄 **[CV_KACZMAREK_MATEUSZ.pdf](./CV_KACZMAREK_MATEUSZ.pdf)** – Moje aktualne Curriculum Vitae.
+### 📂 Pliki w Repozytorium (Polska Wersja Językowa):
+- 📥 **[PORTFOLIO_KACZMAREK_MATEUSZ_PL.pdf](./PORTFOLIO_KACZMAREK_MATEUSZ_PL.pdf)** – Szczegółowy dokument z rzutami 3D, układem warstw PCB oraz zdjęciami zmontowanych układów.
 
 Zapraszam do przeglądania i kontaktu!
 - **LinkedIn:** [linkedin.com/in/mateusz-kaczmarek](https://www.linkedin.com/in/mateusz-kaczmarek-510382447)
 - **Email:** [mateusz.kaczmarek000@o2.pl](mailto:mateusz.kaczmarek000@o2.pl)
 
 ---
-<br>
+<br><br><br>
 
 <a name="english-version"></a>
 # English Version
@@ -115,9 +114,8 @@ A project combining precise, low-noise audio tracks with an STM32H7 digital cont
 - **Digital Signal Processing (DSP):** Algorithm implementation (FFT, digital filters), hardware data acquisition.
 - **MCAD-ECAD Integration:** 3D mechanical modeling (Autodesk Inventor, Fusion), enclosure and cooling system design, 3D printing.
 
-### 📂 Files in this Repository:
-- 📥 **[PORTFOLIO_KACZMAREK_MATEUSZ.pdf](./PORTFOLIO_KACZMAREK_MATEUSZ.pdf)** - Detailed document with 3D models, PCB layer stackups, and photos of assembled circuits.
-- 📄 **[CV_KACZMAREK_MATEUSZ.pdf](./CV_KACZMAREK_MATEUSZ.pdf)** - My current Curriculum Vitae.
+### 📂 Files in this Repository (English Version):
+- 📥 **[PORTFOLIO_KACZMAREK_MATEUSZ_EN.pdf](./PORTFOLIO_KACZMAREK_MATEUSZ_EN.pdf)** - Detailed document with 3D models, PCB layer stackups, and photos of assembled circuits.
 
 Feel free to explore and get in touch!
 - **LinkedIn:** [linkedin.com/in/mateusz-kaczmarek](https://www.linkedin.com/in/mateusz-kaczmarek-510382447)

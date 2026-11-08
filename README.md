@@ -3,15 +3,15 @@
 
 [🇬🇧 Switch to English Version](#english-version)
 
-Witaj w moim repozytorium! Znajdziesz tutaj kompleksowe portfolio moich projektów inżynierskich i akademickich, obejmujących pełen cykl życia produktu – od koncepcji i schematów, przez symulacje, układanie obwodów drukowanych (PCB), integrację mechaniczną 3D, aż po finalny montaż i uruchomienie sprzętu (hardware bring-up).
+Witaj w moim repozytorium! Znajdziesz tutaj kompleksowe portfolio moich projektów inżynierskich i akademickich, obejmujących pełen cykl projektowania produktu – od koncepcji i schematów, przez symulacje, projektowanie obwodów drukowanych (PCB), integrację mechaniczną 3D, aż po finalny montaż i uruchomienie sprzętu (hardware bring-up).
 
-Głównym obszarem moich zainteresowań i specjalizacji jest rygorystyczne projektowanie układów o mieszanym sygnale (Mixed-Signal), zaawansowanej energoelektroniki (Power Electronics) oraz systemów wbudowanych opartych na architekturze FPGA i układach SoC.
+Głównym obszarem moich zainteresowań i specjalizacji jest projektowanie zaawansowanych obwodów drukowanych (High-Speed PCB), układów analogowych, cyfrowych i mieszanych (Mixed-Signal), energoelektroniki (Power Electronics) oraz systemów wbudowanych opartych na architekturze FPGA i układach SoC.
 
 ---
 
 ### 📸 Wybrane Projekty (Preview)
 
-Poniżej znajduje się krótki zwiastun moich możliwości projektowych. **Z uwagi na ochronę własności intelektualnej (IP), pełna dokumentacja, schematy blokowe oraz pomiary laboratoryjne znajdują się wyłącznie w załączonym pliku PDF.**
+Poniżej znajduje się krótki zwiastun moich możliwości projektowych. **Z uwagi na ochronę własności intelektualnej (IP), pełna dokumentacja, schematy blokowe oraz pomiary laboratoryjne znajdują się wyłącznie w załączonych plikach PDF.**
 
 **1. Uniwersalny Modułowy System Pomiarowy (Moduł SoM Rockchip RK3588)**
 Sercem układu obliczeniowego jest autorski moduł bazujący na procesorze Rockchip RK3588, realizowany na 8-warstwowym obwodzie drukowanym z rygorystyczną kontrolą impedancji.
@@ -34,25 +34,26 @@ Karta zapewniająca deterministyczną komunikację sieciową (IEEE 1588v2), zrea
 **3. Zaawansowany System Audio-Wizualny (Mixed-Signal & HMI)**
 Projekt łączący precyzyjne, niskoszumne tory audio z cyfrową jednostką sterującą STM32H7, wielotransformatorowym zasilaniem oraz zaawansowanym interfejsem graficznym.
 
-> *Integracja MCAD-ECAD: Złożenie mechaniczne 3D (Front) całego systemu audio w dedykowanej aluminiowej obudowie (widoczne radiatory i zasilanie).*
+> *Integracja MCAD-ECAD: Złożenie mechaniczne 3D (Front) całego systemu audio w dedykowanej aluminiowej obudowie.*
 > ![Model 3D Systemu](./images/MECHANICAL_AMP_1.PNG)
 
-> *Hardware Bring-up: Wyprodukowana, zmontowana i w pełni uruchomiona główna płyta przetwarzania sygnałów analogowo-cyfrowych (Mixed-Signal).*
+> *Hardware Bring-up: Wyprodukowana, zmontowana i w dużej części uruchomiona główna płyta przetwarzania sygnałów analogowo-cyfrowych (Mixed-Signal).*
 > ![Płyta główna Audio](./images/1_TOP.jpg)
 
-> *Interfejs HMI: Działający, fizyczny panel operatorski z 7-calowym ekranem TFT (TouchGFX) oraz wdrożonymi bezstykowymi enkoderami magnetycznymi.*
+> *Interfejs HMI: Panel operatorski z 7-calowym ekranem TFT (TouchGFX) oraz wdrożonymi bezstykowymi enkoderami magnetycznymi.*
 > ![Panel kontrolny HMI](./images/8_APARAT_TOP.jpg)
 
 ---
 
 ### 🛠️ Główne Kompetencje:
-- **Projektowanie PCB (Altium, KiCad):** Obwody wielowarstwowe (High-Speed), kontrola impedancji, dopasowanie długości ścieżek (length tuning), Signal & Power Integrity (SI/PI).
+- **Projektowanie PCB (Altium Designer):** Obwody wielowarstwowe (High-Speed), kontrola impedancji, dopasowanie długości ścieżek (length tuning), Signal & Power Integrity (SI/PI).
 - **Energoelektronika:** Projektowanie przetwornic, zasilacze izolowane LLC, topologie wielofazowe, filtry EMI.
 - **Systemy Wbudowane:** STM32, FPGA (Xilinx Zynq, VHDL), systemy Linux Embedded (Rockchip).
 - **Przetwarzanie Sygnałów (DSP):** Implementacja algorytmów (FFT, filtry cyfrowe), sprzętowa akwizycja danych.
-- **Integracja MCAD-ECAD:** Mechaniczne modelowanie 3D (Autodesk Inventor, Fusion), projektowanie obudów i systemów chłodzenia, druk 3D.
+- **Integracja MCAD-ECAD:** Mechaniczne modelowanie 3D (Autodesk Inventor, Fusion 360), projektowanie obudów i systemów chłodzenia, druk 3D.
 
 ### 📂 Pliki w Repozytorium (Polska Wersja Językowa):
+- 📥 **[CV_Kaczmarek_Mateusz_PL.pdf](./CV_Kaczmarek_Mateusz_PL.pdf)** – Moje aktualne CV (Curriculum Vitae).
 - 📥 **[PORTFOLIO_KACZMAREK_MATEUSZ_PL.pdf](./PORTFOLIO_KACZMAREK_MATEUSZ_PL.pdf)** – Szczegółowy dokument z rzutami 3D, układem warstw PCB oraz zdjęciami zmontowanych układów.
 
 Zapraszam do przeglądania i kontaktu!
@@ -67,13 +68,13 @@ Zapraszam do przeglądania i kontaktu!
 
 Welcome to my repository! Here you will find a comprehensive portfolio of my engineering and academic projects, covering the entire product life cycle - from concepts and schematics, through simulations, PCB layout, 3D mechanical integration, to final assembly and hardware bring-up.
 
-My main areas of interest and expertise are rigorous Mixed-Signal circuit design, advanced Power Electronics, and embedded systems based on FPGA and SoC architectures.
+My main areas of interest and expertise include the design of advanced printed circuit boards (High-Speed PCB), analog, digital, and Mixed-Signal circuits, Power Electronics, as well as embedded systems based on FPGA and SoC architectures.
 
 ---
 
 ### 📸 Selected Projects (Preview)
 
-Below is a brief teaser of my design capabilities. **Due to Intellectual Property (IP) protection, full documentation, block diagrams, and laboratory measurements are available exclusively in the attached PDF file.**
+Below is a brief teaser of my design capabilities. **Due to Intellectual Property (IP) protection, full documentation, block diagrams, and laboratory measurements are available exclusively in the attached PDF files.**
 
 **1. Universal Modular Measurement System (SoM Rockchip RK3588)**
 The computing core is a custom System-on-Module based on the Rockchip RK3588 application processor, implemented on an 8-layer impedance-controlled PCB.
@@ -99,7 +100,7 @@ A project combining precise, low-noise audio tracks with an STM32H7 digital cont
 > *MCAD-ECAD Integration: 3D mechanical assembly (Front) of the entire audio system within a custom aluminum enclosure.*
 > ![3D System Model](./images/MECHANICAL_AMP_1.PNG)
 
-> *Hardware Bring-up: Manufactured, assembled, and fully operational main analog-digital processing board (Mixed-Signal).*
+> *Hardware Bring-up: Manufactured, assembled, and partially operational main analog-digital processing board (Mixed-Signal).*
 > ![Audio Mainboard](./images/1_TOP.jpg)
 
 > *HMI Interface: Functional, physical operator panel featuring a 7-inch TFT screen (TouchGFX) and implemented contactless magnetic encoders.*
@@ -108,13 +109,14 @@ A project combining precise, low-noise audio tracks with an STM32H7 digital cont
 ---
 
 ### 🛠️ Core Competencies:
-- **PCB Design (Altium, KiCad):** Multilayer High-Speed circuits, impedance control, length tuning, Signal & Power Integrity (SI/PI).
+- **PCB Design (Altium Designer):** Multilayer High-Speed circuits, impedance control, length tuning, Signal & Power Integrity (SI/PI).
 - **Power Electronics:** Converters design, isolated LLC power supplies, multiphase topologies, EMI filters.
 - **Embedded Systems:** STM32, FPGA (Xilinx Zynq, VHDL), Linux Embedded systems (Rockchip).
 - **Digital Signal Processing (DSP):** Algorithm implementation (FFT, digital filters), hardware data acquisition.
-- **MCAD-ECAD Integration:** 3D mechanical modeling (Autodesk Inventor, Fusion), enclosure and cooling system design, 3D printing.
+- **MCAD-ECAD Integration:** 3D mechanical modeling (Autodesk Inventor, Fusion 360), enclosure and cooling system design, 3D printing.
 
 ### 📂 Files in this Repository (English Version):
+- 📥 **[CV_Kaczmarek_Mateusz_EN.pdf](./CV_Kaczmarek_Mateusz_EN.pdf)** – My current Resume (Curriculum Vitae). *(Uwaga: upewnij się, że masz ten plik w repozytorium, lub usuń tę linijkę, jeśli udostępniasz tylko polskie CV)*
 - 📥 **[PORTFOLIO_KACZMAREK_MATEUSZ_EN.pdf](./PORTFOLIO_KACZMAREK_MATEUSZ_EN.pdf)** - Detailed document with 3D models, PCB layer stackups, and photos of assembled circuits.
 
 Feel free to explore and get in touch!
